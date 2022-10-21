@@ -1,0 +1,23 @@
+/* generali */
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+}
+
+body{
+  background-color: orange;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+h1{
+  color: wheat;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 6rem;
+}
